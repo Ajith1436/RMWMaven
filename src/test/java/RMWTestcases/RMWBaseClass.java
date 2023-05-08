@@ -8,13 +8,26 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
+
+import com.codoid.products.exception.FilloException;
+import com.codoid.products.fillo.Connection;
+import com.codoid.products.fillo.Fillo;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class RMWBaseClass {
 
-	WebDriver driver;
-
+	public WebDriver driver;
+	Fillo fillo;
+	Connection connection;
+	
+	@BeforeTest
+	public void Reportsetup() throws FilloException {
+		// report = new ExtentReports("ExtendReports.html");
+		fillo = new Fillo();
+		connection = fillo.getConnection("DataSheet.xlsx");
+	}
 	@BeforeMethod
 	public void setup() {
 		// step-1 : Launch chrome browser and open simplilearn website

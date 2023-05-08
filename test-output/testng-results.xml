@@ -2,20 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-21T16:29:56Z" name="Default suite" finished-at="2023-04-21T16:30:09Z" duration-ms="13206">
+  <suite started-at="2023-05-01T07:56:50Z" name="Default suite" finished-at="2023-05-01T07:57:10Z" duration-ms="19807">
     <groups>
     </groups>
-    <test started-at="2023-04-21T16:29:56Z" name="Default test" finished-at="2023-04-21T16:30:09Z" duration-ms="13206">
-      <class name="RMWTestcases.searchFunctionTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:RMWTestcases.searchFunctionTest@3561c410]" started-at="2023-04-21T16:29:56Z" name="setup" finished-at="2023-04-21T16:30:06Z" duration-ms="10177" status="PASS">
+    <test started-at="2023-05-01T07:56:50Z" name="Default test" finished-at="2023-05-01T07:57:10Z" duration-ms="19807">
+      <class name="RMWTestcases.NewsLetterSubscriptionTest">
+        <test-method is-config="true" signature="Reportsetup()[pri:0, instance:RMWTestcases.NewsLetterSubscriptionTest@1ab06251]" started-at="2023-05-01T07:56:50Z" name="Reportsetup" finished-at="2023-05-01T07:56:51Z" duration-ms="1033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reportsetup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:RMWTestcases.NewsLetterSubscriptionTest@1ab06251]" started-at="2023-05-01T07:56:51Z" name="setup" finished-at="2023-05-01T07:57:04Z" duration-ms="12440" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="SearchFunctionData()[pri:0, instance:RMWTestcases.searchFunctionTest@3561c410]" started-at="2023-04-21T16:30:06Z" name="SearchFunctionData" finished-at="2023-04-21T16:30:09Z" duration-ms="3009" status="PASS">
+        <test-method signature="NewsLetterSubscriptionData()[pri:0, instance:RMWTestcases.NewsLetterSubscriptionTest@1ab06251]" started-at="2023-05-01T07:57:04Z" name="NewsLetterSubscriptionData" finished-at="2023-05-01T07:57:10Z" duration-ms="6292" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SearchFunctionData -->
-      </class> <!-- RMWTestcases.searchFunctionTest -->
+        </test-method> <!-- NewsLetterSubscriptionData -->
+      </class> <!-- RMWTestcases.NewsLetterSubscriptionTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
